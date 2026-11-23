@@ -4,7 +4,7 @@
 
 [English](README.md) | 中文说明
 
-作者 **FibrizoReturns** · B站：@FibrizoReturns
+作者 **FibrizoReturns** · B站：[@FibrizoReturns](https://space.bilibili.com/247952238)
 
 关于 Dreamcast 版《莎木》引擎如何存储与播放格斗风格，以及这些风格所引用的逐骨骼动作通道系统的逆向笔记。
 

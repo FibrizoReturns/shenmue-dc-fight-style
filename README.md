@@ -4,7 +4,7 @@
 
 [中文说明](README.zh.md) | English
 
-by **FibrizoReturns** &middot; Bilibili: @FibrizoReturns
+by **FibrizoReturns** &middot; Bilibili: [@FibrizoReturns](https://space.bilibili.com/247952238)
 
 Reverse-engineering notes on how the Dreamcast Shenmue engine stores and plays
 fighting styles, and on the per-bone motion channel system those styles reference.
