@@ -2,6 +2,8 @@
 
 ![莎木2 竞技场 —— 概念横幅](assets/banner.jpg)
 
+[English](README.md) | 中文说明
+
 作者 **FibrizoReturns** · B站：@FibrizoReturns
 
 关于 Dreamcast 版《莎木》引擎如何存储与播放格斗风格，以及这些风格所引用的逐骨骼动作通道系统的逆向笔记。
@@ -40,8 +42,8 @@ https://www.bilibili.com/video/BV1T5yVzjEj6/
 
 容器、模型与贴图格式在别处已经有很完整的整理：
 
-- `new-yokosuka/SHENMUE_DOCUMENTATION` — `PAKS`/`PAKF`、`MT5`/`HRCM`、`PVR` 贴图
-- `brynnb/ghidra-dreamcast-shenmue` — Ghidra 加载器与过场 `SEQ` 研究
+- [new-yokosuka/SHENMUE_DOCUMENTATION](https://github.com/new-yokosuka/SHENMUE_DOCUMENTATION) — `PAKS`/`PAKF`、`MT5`/`HRCM`、`PVR` 贴图
+- [brynnb/ghidra-dreamcast-shenmue](https://github.com/brynnb/ghidra-dreamcast-shenmue) — Ghidra 加载器与过场 `SEQ` 研究
 
 两者聚焦于容器与模型层。本仓库补上的是格斗数据层。
 

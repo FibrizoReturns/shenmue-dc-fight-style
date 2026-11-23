@@ -57,8 +57,8 @@ It is a mod demo only; no game files are distributed.
 
 Container, model and texture formats are already well covered elsewhere:
 
-- `new-yokosuka/SHENMUE_DOCUMENTATION` — `PAKS`/`PAKF`, `MT5`/`HRCM`, `PVR` textures
-- `brynnb/ghidra-dreamcast-shenmue` — Ghidra loader, cutscene `SEQ` research
+- [new-yokosuka/SHENMUE_DOCUMENTATION](https://github.com/new-yokosuka/SHENMUE_DOCUMENTATION) — `PAKS`/`PAKF`, `MT5`/`HRCM`, `PVR` textures
+- [brynnb/ghidra-dreamcast-shenmue](https://github.com/brynnb/ghidra-dreamcast-shenmue) — Ghidra loader, cutscene `SEQ` research
 
 Both focus on the container and model layer. The fight data layer is what this
 repository adds.
