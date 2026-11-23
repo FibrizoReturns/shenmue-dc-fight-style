@@ -19,9 +19,9 @@ porting animations between games.
 
 | # | Document | Contents |
 |---|---|---|
-| 01 | [EN file format](docs/01-en-file-format.md) | Header layout, the five sections, what each one really is |
-| 02 | [Motion channels](docs/02-motion-channels-69.md) | The 69-channel per-frame pose system and its bone mapping |
-| 03 | [PKS repacking](docs/03-pks-repack.md) | `PAKS` container structure and the mistakes that break it |
+| 01 | [EN file format](01-en-file-format.md) | Header layout, the five sections, what each one really is |
+| 02 | [Motion channels](02-motion-channels-69.md) | The 69-channel per-frame pose system and its bone mapping |
+| 03 | [PKS repacking](03-pks-repack.md) | `PAKS` container structure and the mistakes that break it |
 
 ## Summary of findings
 
@@ -51,4 +51,4 @@ repository adds.
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+MIT.
