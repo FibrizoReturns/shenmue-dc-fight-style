@@ -1,6 +1,6 @@
 # Shenmue DC — Fight Style & Motion Format Notes
 
-![Shenmue II Arena — concept banner](banner.jpg)
+![Shenmue II Arena — concept banner](assets/banner.jpg)
 
 [中文说明](README.zh.md) | English
 

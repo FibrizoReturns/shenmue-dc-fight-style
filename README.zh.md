@@ -1,6 +1,6 @@
 # 莎木 DC — 格斗风格与动作格式笔记
 
-![莎木2 竞技场 —— 概念横幅](banner.jpg)
+![莎木2 竞技场 —— 概念横幅](assets/banner.jpg)
 
 作者 **FibrizoReturns** · B站：@FibrizoReturns
 
