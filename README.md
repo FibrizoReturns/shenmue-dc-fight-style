@@ -62,8 +62,9 @@ Container, model and texture formats are already well covered elsewhere:
 - [brynnb/ghidra-dreamcast-shenmue](https://github.com/brynnb/ghidra-dreamcast-shenmue) — Ghidra loader, cutscene `SEQ` research
 - [Shenmue-Mods/Knowledgebase](https://github.com/Shenmue-Mods/Knowledgebase) — container, texture, text and character-ID references (see [04](docs/04-external-references.md))
 
-Both focus on the container and model layer. The fight data layer is what this
-repository adds.
+Both focus on the container and model layer. What this repository adds is the
+`EN_*.BIN` layout itself — its five sections, how a move is encoded, and why a
+malformed `PAKS` table makes the engine drop back to a default style silently.
 
 ## License
 

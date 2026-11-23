@@ -47,7 +47,7 @@ https://www.bilibili.com/video/BV1T5yVzjEj6/
 - [brynnb/ghidra-dreamcast-shenmue](https://github.com/brynnb/ghidra-dreamcast-shenmue) — Ghidra 加载器与过场 `SEQ` 研究
 - [Shenmue-Mods/Knowledgebase](https://github.com/Shenmue-Mods/Knowledgebase) — 容器、贴图、文本与角色 ID 参考资料（见 [04](docs/04-external-references.md)）
 
-两者聚焦于容器与模型层。本仓库补上的是格斗数据层。
+两者聚焦于容器与模型层。本仓库补上的是 `EN_*.BIN` 本身的布局 —— 五个段各自是什么、招式如何编码，以及为什么 `PAKS` 目录表没建好时引擎会静默退回默认风格。
 
 ## 许可
 
