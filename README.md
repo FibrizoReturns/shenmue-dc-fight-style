@@ -1,5 +1,7 @@
 # Shenmue DC — Fight Style & Motion Format Notes
 
+![Shenmue II Arena — concept banner](banner.jpg)
+
 [中文说明](README.zh.md) | English
 
 by **FibrizoReturns** &middot; Bilibili: @FibrizoReturns

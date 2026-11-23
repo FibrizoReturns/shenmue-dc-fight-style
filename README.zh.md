@@ -1,5 +1,7 @@
 # 莎木 DC — 格斗风格与动作格式笔记
 
+![莎木2 竞技场 —— 概念横幅](banner.jpg)
+
 作者 **FibrizoReturns** · B站：@FibrizoReturns
 
 关于 Dreamcast 版《莎木》引擎如何存储与播放格斗风格，以及这些风格所引用的逐骨骼动作通道系统的逆向笔记。
