@@ -21,6 +21,7 @@
 | 01 | [EN 文件格式](docs/01-en-file-format.md) | 头部布局、五个段、每一段究竟是什么 |
 | 02 | [动作通道](docs/02-motion-channels-69.md) | 69 通道逐帧姿态系统及其骨骼映射 |
 | 03 | [PKS 重打包](docs/03-pks-repack.md) | `PAKS` 容器结构，以及那些会把包搞坏的错误做法 |
+| 04 | [外部参考索引](docs/04-external-references.md) | 这些笔记依赖的公开研究，以及每份资料所处的结构层 |
 
 ## 主要结论
 
@@ -44,6 +45,7 @@ https://www.bilibili.com/video/BV1T5yVzjEj6/
 
 - [new-yokosuka/SHENMUE_DOCUMENTATION](https://github.com/new-yokosuka/SHENMUE_DOCUMENTATION) — `PAKS`/`PAKF`、`MT5`/`HRCM`、`PVR` 贴图
 - [brynnb/ghidra-dreamcast-shenmue](https://github.com/brynnb/ghidra-dreamcast-shenmue) — Ghidra 加载器与过场 `SEQ` 研究
+- [Shenmue-Mods/Knowledgebase](https://github.com/Shenmue-Mods/Knowledgebase) — 容器、贴图、文本与角色 ID 参考资料（见 [04](docs/04-external-references.md)）
 
 两者聚焦于容器与模型层。本仓库补上的是格斗数据层。
 

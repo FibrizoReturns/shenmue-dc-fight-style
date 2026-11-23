@@ -28,6 +28,7 @@ porting animations between games.
 | 01 | [EN file format](docs/01-en-file-format.md) | Header layout, the five sections, what each one really is |
 | 02 | [Motion channels](docs/02-motion-channels-69.md) | The 69-channel per-frame pose system and its bone mapping |
 | 03 | [PKS repacking](docs/03-pks-repack.md) | `PAKS` container structure and the mistakes that break it |
+| 04 | [External references](docs/04-external-references.md) | The public research behind these notes, and which layer each source covers |
 
 ## Summary of findings
 
@@ -59,6 +60,7 @@ Container, model and texture formats are already well covered elsewhere:
 
 - [new-yokosuka/SHENMUE_DOCUMENTATION](https://github.com/new-yokosuka/SHENMUE_DOCUMENTATION) — `PAKS`/`PAKF`, `MT5`/`HRCM`, `PVR` textures
 - [brynnb/ghidra-dreamcast-shenmue](https://github.com/brynnb/ghidra-dreamcast-shenmue) — Ghidra loader, cutscene `SEQ` research
+- [Shenmue-Mods/Knowledgebase](https://github.com/Shenmue-Mods/Knowledgebase) — container, texture, text and character-ID references (see [04](docs/04-external-references.md))
 
 Both focus on the container and model layer. The fight data layer is what this
 repository adds.
