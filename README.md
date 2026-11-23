@@ -43,6 +43,14 @@ porting animations between games.
   Changing entry count or ordering without rebuilding the TOC makes the engine
   silently fall back to the default style.
 
+## Video showcase
+
+A demonstration of the fight build this research is used for — Shenmue II fight mode, with characters and move sets swapped:
+
+https://www.bilibili.com/video/BV1T5yVzjEj6/
+
+It is a mod demo only; no game files are distributed.
+
 ## Related work
 
 Container, model and texture formats are already well covered elsewhere:
