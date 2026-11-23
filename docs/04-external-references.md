@@ -10,6 +10,8 @@ Public research worth reading alongside these notes. Everything here is a
 | [Shenmue-Mods/Knowledgebase](https://github.com/Shenmue-Mods/Knowledgebase) | Community reverse-engineering repo, ~58 documents across Shenmue I, II and Dreamcast formats | The single best index of the surrounding layers | A collection, not one unified document |
 | [Changing Fighting Style (Shenmue I)](https://github.com/Shenmue-Mods/Knowledgebase/blob/master/Shenmue_I/Changing_Fighting_Style.md) | The engine resolves a style through the `EN_%s.BIN` name template; lists all 58 style IDs | Independent confirmation that the style is picked by a 4-character ID and that a missing file silently falls back | Author notes it only works in Free Battle — Practice freezes |
 | [MOTION.BIN file structure](https://github.com/Shenmue-Mods/Knowledgebase/blob/master/Whats_Shenmue/MOTION_BIN_File_Structure.md) | File-level tables: 20-byte header, data look-up table, name look-up table, 40-byte entry prefix | The other half of [02](02-motion-channels-69.md): that note explains what the channels mean, this one explains how the file indexes the animations | Names such as `AB_031` are per-file, not global IDs |
+| [ShenmueMotn](https://github.com/Shenmue-Mods/ShenmueMotn) | The animation format in five blocks: file header, per-animation header, bone id + axis bitfields, keyframe counts, keyframe numbers, easing flags, values | Independent work on the channel and bone layer — the bit layout it documents (bone id in the high bits, six axis flags) is the same mechanism [02](02-motion-channels-69.md) describes for this build | The author leaves block 5 (easing order, value encoding) explicitly unverified |
+| [ShenmueDK](https://github.com/Shenmue-Mods/ShenmueDK) | C++ SDK with a working parser in `include/shendk/files/animation/motn.h` | Concrete constants to check against: `Pos_mask 0x1C0`, `Rot_mask 0x38`, plus a 256-entry popcount table used to size each channel block | Built against the HD release, so the channel set differs from the Dreamcast build |
 
 ## Character and slot mapping
 
@@ -43,6 +45,25 @@ that tutorial on a Shenmue I build; do not transplant it into an
 | [1ST_READ text quirks](https://github.com/Shenmue-Mods/Knowledgebase/blob/master/Whats_Shenmue/1ST_READ_Text_quirks.md) | Text encoding and pointer oddities |
 | [1ST_READ text pointer mods](https://github.com/Shenmue-Mods/Knowledgebase/blob/master/Shenmue_I/1ST_READ_Text_Pointer_mods.md) | Relocating text without breaking pointers |
 | [Analysis of a simple MAPINFO](https://github.com/Shenmue-Mods/Knowledgebase/blob/master/Shenmue_I/Analysis_of_a_simple_MAPINFO.md) | `MAPINFO.BIN` layout |
+
+## Where the new material actually is
+
+Worth being precise about, because part of this area is already public:
+
+- **Style-file layout** — the five-entry header of `EN_*.BIN` and what each
+  section does. Not documented elsewhere.
+- **Move encoding** — opcode `5` followed by a 32-bit value whose low 12 bits
+  are the motion ID. Not documented elsewhere.
+- **Section 4 semantics** — state-indexed hit / knockdown / guard / getup IDs,
+  not a move table. Community practice still treats it as one.
+- **The `PAKS` failure mode** — change the entry count or ordering without
+  rebuilding the table of contents and the engine silently falls back to the
+  default style, with no error.
+
+The **channel bit layout** is *not* new here: ShenmueMotn and ShenmueDK above
+describe it independently. What this repository adds on that axis is the
+Dreamcast channel count and the bone partition — channels 45–56 right arm,
+57–68 left arm, 9–26 legs, 27–44 torso and head.
 
 ## Layer map
 
